@@ -1,0 +1,33 @@
+#cards{
+    border: 1px solid black;    
+
+}
+
+.card{
+    border: 1px solid black;
+    display: inline-block;    
+}
+
+
+.card figcaption{
+    background-color: black;
+    color: yellow;
+    padding: 5px 10px 20px 30px;
+}
+
+.rotar-45{
+    transform: rotate(45deg);
+}
+
+.rotar-135{
+    transform: rotate(135deg);
+}
+
+.sepia{
+    filter: sepia();
+}
+
+.opacity{
+    opacity: .8;
+}
+
